@@ -1,0 +1,327 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: gray;
+  height: 100vh;
+}
+
+ul {
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  list-style: none;
+}
+
+
+h4 {
+  font-size: 1.2rem;
+  margin: .4rem auto;
+}
+
+.heading {
+  margin-bottom: 2.2rem;
+  color: #f7f7f7;
+
+}
+
+.head-container {
+  height: 25%;
+}
+
+.nav {
+  display: flex;
+  color: #f7f7f7;
+  justify-content: center;
+  height: 80%;
+  background-color: #0E3465;
+  margin-bottom: 3rem;
+  /*grid-area: nav;*/
+}
+/*
+.heading-nav {
+  display: flex;
+  margin-left: 1rem;
+  align-items: flex-end;
+  justify-content: flex-start;
+  display: flex;
+}*/
+
+.left-headers {
+  padding-bottom: 1rem;
+  align-items: flex-end;
+  justify-content: space-around;
+  display: flex;
+  flex: 1;
+}
+
+.right-headers {
+  height: 100%;
+  align-items: flex-end;
+  flex: 1;
+  flex-direction: column-reverse;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profile-icon {
+  height: 15%;
+  width: 3%;
+}
+
+.name {
+  font-size: 1.9rem;
+  margin: .2rem auto;
+}
+
+
+.probowl {
+  color: #FF5733;
+}
+
+.next-icon {
+  position: absolute;
+  height: 7%;
+  width: 7%;
+  margin: .3rem;
+}
+
+.next-icon:hover {
+  transform: scale(1.1);
+}
+
+.number {
+  position: absolute;
+  /*right: 0;*/
+
+}
+
+.article {
+  display: flex;
+}
+
+
+/*.head-container {
+  display: flex;
+  height: 25%;
+}*/
+
+
+
+.nfl-icon {
+  margin-right: 1rem;
+  height: 70%;
+  width: 10%;
+}
+
+.players {
+  /* filter: brightness(70%);*/
+  object-fit: cover;
+  width: 100%;
+  height: 40%;
+  /*filter: brightness(70%);*/
+}
+
+.college {
+  font-size: 2rem;
+  background-color: #C8C7C7;
+  margin: .7rem auto;
+}
+
+.profiles {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  height: 100vh;
+  margin: 0 auto;
+  grid-template-areas:
+  "pone ptwo pthree pfour"
+  "pone ptwo pthree pfour"
+  "pone ptwo pthree pfour"
+  "pfive psix pseven peight"
+  "pfive psix pseven peight"
+  "pfive psix pseven peight";
+}
+
+.person1 {
+ background-color: white;
+ grid-area: pone;
+}
+
+.person2 {
+  background-color: white;
+  grid-area: ptwo;
+}
+
+.person3 {
+  background-color: white;
+  grid-area: pthree;
+}
+
+.person4 {
+  background-color: white;
+  grid-area: pfour;
+}
+
+.person5 {
+  background-color: white;
+  grid-area: pfive;
+}
+
+.person6 {
+  background-color: white;
+  grid-area: psix;
+}
+
+.person7 {
+  background-color: white;
+  grid-area: pseven;
+}
+
+.person8 {
+  background-color: white;
+  grid-area: peight;
+}
+
+.header-icons {
+  width: 5%;
+  height: 20%;
+}
+
+.header-icons:hover {
+  transform: scale(1.1);
+}
+
+.profile-icon:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 950px) {
+
+.profiles {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  height: 100vh;
+  margin: 0 auto;
+  grid-template-areas:
+  "pone pseven"
+  "pthree pfour"
+  "pfive psix"
+  "ptwo peight";
+  }
+
+  .name {
+    font-size: 2rem
+  }
+
+  ul {
+    padding-bottom: 0;
+  }
+
+  li {
+    margin: .5rem;
+  }
+  
+  span {
+    margin: .5rem;
+  }
+
+  h4 {
+    font-size: 1.4rem;
+  }
+
+  .probowl {
+    font-size: 2rem;
+  }
+
+  .college {
+    font-size: 2rem;
+  }
+
+}
+
+@media screen and (max-width: 690px) {
+  .profiles {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  height: 100vh;
+  margin: 0 auto;
+  grid-template-areas:
+  "pone" 
+  "ptwo"
+  "pthree" 
+  "pfour"
+  "pfive"
+  "psix"
+  "pseven" 
+  "peight";
+  }
+
+  .profile-icon {
+    margin-top: 4rem;
+    /*margin-right: 1rem;*/
+    height: 50%;
+    width: 20%;
+  }
+
+  .right-headers {
+    display: inline-block;
+  }
+
+  .nfl-icon {
+    float: right;
+    height: 90%;
+    width: 40%;
+  }
+
+  .nav {
+    margin-bottom: 1rem;
+  }
+
+  .heading {
+    margin-top: 0;
+  }
+
+  .head-container {
+    margin-bottom: 0;
+  }
+
+
+  .next-icon {
+    margin-left: .5rem;
+    height: 15%;
+    width: 15%;
+  }
+
+  .left-headers {
+  }
+
+  ul {
+    padding-bottom: 0;
+  }
+
+
+  .head-span {
+    display: none;
+    font-size: .5rem
+  }
+  
+  .header-icons {
+    margin-right: .3rem;
+    display: inline-block;
+    height: 50%;
+    width: 20%;
+  }
+  }
+
+}
