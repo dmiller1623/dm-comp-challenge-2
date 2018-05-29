@@ -133,41 +133,49 @@ h4 {
 
 .person1 {
  background-color: #f7f7f7;
+ box-shadow: 2px 4px;
  grid-area: pone;
 }
 
 .person2 {
   background-color: #f7f7f7;
+  box-shadow: 2px 4px;
   grid-area: ptwo;
 }
 
 .person3 {
   background-color: #f7f7f7;
+  box-shadow: 2px 4px;
   grid-area: pthree;
 }
 
 .person4 {
   background-color: #f7f7f7;
+  box-shadow: 2px 4px;
   grid-area: pfour;
 }
 
 .person5 {
   background-color: #f7f7f7;
+  box-shadow: 2px 4px;
   grid-area: pfive;
 }
 
 .person6 {
   background-color: #f7f7f7;
+  box-shadow: 2px 4px;
   grid-area: psix;
 }
 
 .person7 {
   background-color: #f7f7f7;
+  box-shadow: 2px 4px;
   grid-area: pseven;
 }
 
 .person8 {
   background-color: #f7f7f7;
+  box-shadow: 2px 4px;
   grid-area: peight;
 }
 
